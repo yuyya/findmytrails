@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help__page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.taoxie.findmytrails.HelpPageActivity"
+    android:background="@color/btn_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:text="In order to find a trail, click on the pink magnifying glass on the home page."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FindTrail_A"
+        android:fontFamily="casual"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/Find_addressA"
+        android:layout_alignBottom="@+id/Find_addressA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtsearch"
+        android:hint="Search"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="Questions and Answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:fontFamily="casual"
+        android:textSize="30sp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtsearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></ListView>
+
+    <TextView
+        android:text='When on the details page of the trail you want,
+        click "GET THERE" at the bottom of the screen.
+        This will show you a route on the map that leads you to the trail from your current location.'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Find_addressA"
+        android:fontFamily="casual"
+        android:visibility="invisible"
+        android:layout_below="@+id/txtsearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="381dp" />
+
+    <TextView
+        android:text="When you click on a trail icon, the trail name with ratings pops up on the bottom of the screen. Click on that preview in order to open the details page. You can rate the trail by choosing the amount of stars at the top."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rate_TrailA"
+        android:fontFamily="casual"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/FindTrail_A"
+        android:layout_alignBottom="@+id/FindTrail_A"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="In order to sign out, click on the button to open the side bar on the top left side of the page. Now, you should see SIGN OUT on the bottom of the screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sign_outA"
+        android:fontFamily="casual"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/FindTrail_A"
+        android:layout_alignBottom="@+id/FindTrail_A"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

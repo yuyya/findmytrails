@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "767752494465",
+    "firebase_url": "https://findmytrails.firebaseio.com",
+    "project_id": "findmytrails",
+    "storage_bucket": "findmytrails.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767752494465:android:4e1cc06faea68dac",
+        "android_client_info": {
+          "package_name": "ca.taoxie.findmytrails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767752494465-pppedho3ipu1fomme5ojr6j00koa2gkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.taoxie.findmytrails",
+            "certificate_hash": "21A81755918D13809E07C17D59ADEE6073957839"
+          }
+        },
+        {
+          "client_id": "767752494465-kuhk4110tudn5lj9d69c9j5c1s6mvhu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0U7uSoJthFFN7jhL9VdiUpndQEFPMcO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767752494465-kuhk4110tudn5lj9d69c9j5c1s6mvhu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

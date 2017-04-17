@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/md_blue_100"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/contact_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:padding="35dp"
+        android:textColor="#000000"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/contact_subject"
+        android:layout_alignParentStart="true"
+        android:hint="What would you like to say?"
+        android:layout_above="@+id/contact_send"
+        android:layout_marginBottom="35dp" />
+
+    <Button
+        android:text="@string/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_send"
+        android:background="@color/white"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contact_send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="51dp"
+        android:layout_marginEnd="51dp"
+        android:background="@color/white"
+        android:id="@+id/contact_cancel" />
+
+    <TextView
+        android:text="Having Problems? Contact Us Directly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/message_to_you"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:maxLines="1"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/message_to_you"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:maxLines="1"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/contact_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Subject"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/contact_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
